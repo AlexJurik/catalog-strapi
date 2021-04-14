@@ -11,22 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "description": {
-      "type": "text"
-    },
-    "size": {
-      "type": "enumeration",
-      "enum": [
-        "xs",
-        "s",
-        "m",
-        "l",
-        "xl",
-        "xxl",
-        "xxxl",
-        "xxxxl"
-      ]
-    },
     "title": {
       "type": "string"
     },
@@ -46,6 +30,15 @@
     },
     "price": {
       "type": "decimal"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "size": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "string"
     }
   }
 }
