@@ -44,6 +44,24 @@
     "giveaway": {
       "type": "boolean",
       "default": false
+    },
+    "filterType": {
+      "type": "enumeration",
+      "enum": [
+        "MBundy",
+        "MMikiny",
+        "MTricka",
+        "MKrataseNohavice",
+        "ZBundy",
+        "ZMikiny",
+        "ZTricka",
+        "ZKrataseNohavice",
+        "Prislusenstvo",
+        "Obuv",
+        "Ostatne"
+      ],
+      "default": "Ostatne",
+      "required": true
     }
   }
 }
